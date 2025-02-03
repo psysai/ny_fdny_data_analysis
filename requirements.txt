@@ -1,0 +1,10 @@
+pandas
+SQLAlchemy
+great_expectations
+requests
+scipy
+folium
+prefect
+tenacity
+matplotlib
+seaborn
