@@ -34,12 +34,3 @@ class DataLoaderSQLite:
         df = pd.read_sql_table(table_name, con=engine)
         logger.info(df)
 
-# #main
-# if __name__ == "__main__":
-#     # Example usage
-#     df = DataRepository.load_fdny_data()
-#     df = DataTransformer.clean_fdny_fire_incident_data(df)
-#     DataLoaderSQLite.load_dataframe(df, 'fire_incidents')
-#     DataLoaderSQLite.logger.info_table('fire_incidents')
-#     DataLoaderSQLite.drop_table('fire_incidents')
-    
